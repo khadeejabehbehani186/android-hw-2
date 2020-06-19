@@ -1,0 +1,32 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        System.out.println("Hello World");
+        
+        
+        int [] studentPercentage = {30,90,80,84,69,92,63,45,70,90};
+        char [] letterGrades= new char [10];
+       for (int i=0;  i<10; i++ )
+       {
+       letterGrades [i] = grades (studentPercentage[i]);
+       System.out.println(letterGrades [i]);
+     }
+      System
+     }
+     public static char grades (double x)
+     {
+         if (x>=90)
+         return 'A';
+         else if (x>=80)
+         return 'B';
+         else if (x>=70)
+         return 'C';
+         else if (x>=60)
+         return 'D';
+         else 
+         return 'F';
+         
+         
+     }
+     
+}
